@@ -20,25 +20,15 @@ package org.japo.java.main;
  * @author Elísabet Palomino
  */
 public class Main {
-    
+
     public static void main(String[] args) {
-        
-        //Manera 1
-        
-        System.out.print ("DNI: 12345678");    //System es una clase,out es un recurso de la clase System. el punto indica el recurso.  
-        System.out.println("A");   
-        
-        //Manera 2
-        
-        final char LETRADNI = 'A';
-        System.out.printf("DNI: 12345678 %c ", LETRADNI);
-        
-        
-        
-        
-        
-        
-        
+
+        //Constante        
+        final char LETRA_DNI = 'A';
+
+        //Mensaje
+        System.out.printf("DNI: 12345678 %c ", LETRA_DNI);
+
     }//main
-    
+
 }//class
